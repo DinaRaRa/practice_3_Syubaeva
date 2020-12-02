@@ -1,0 +1,623 @@
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/OpenSans-Regular.ttf');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/OpenSans-Bold.ttf');
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 800;
+	src: url('../fonts/OpenSans-ExtraBold.ttf');	
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/OpenSans-SemiBold.ttf');	
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 400;
+	src: url('../fonts/OpenSans-Italic.ttf');	
+}
+
+body{
+	margin: 0;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	}
+
+/* First Floor */
+
+.first-floor{
+	background-color: #F6F2F2;
+	padding-bottom: 111px;
+}
+header{
+	background-color: #000000;
+	max-width: 1249px;
+	min-height: 90px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.site-menu{
+	display: flex;
+	justify-content: center;
+	margin:0;
+
+}
+.site-menu li{
+	list-style: none;
+	margin: 0 15px;
+	min-height: 90px;
+	display: flex;
+	justify-content: center; 
+	align-items: stretch;	
+}
+.site-menu a{
+	text-decoration: none;
+	margin:0;
+	padding-left: 18px;
+	padding-right: 18px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.site-menu a:hover{
+	background-color: #FF3F40;
+}
+.first-floor-wrap{
+	max-width: 1249px;
+	margin: 103px auto 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.first-floor-text{
+	margin-right: 80px;
+}
+.first-floor-text h1{
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 72px;
+	letter-spacing: .5rem;
+	margin: 0;
+	padding: 0;
+	max-width: 618px; 
+}
+.first-floor-text p{
+	max-width: 544px;
+	font-size: 16px;
+	line-height: 28px;
+}
+.first-button{
+	display: flex;
+	width: 227px; 
+	height: 55px;
+	align-items: stretch; 
+	margin-bottom: 25px;
+}
+.first-button a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;	
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%; 
+	height: 100%;
+	margin-top: 50px;
+
+	background-color: #FF2D2D;
+	border-radius: 5px;
+	
+}
+.first-floor-img{
+	max-width: 551px;
+	max-height: 356px;
+	margin-top: 15px;
+}
+@media screen and (max-width: 600px){
+	.site-menu{
+		flex-wrap: wrap;
+	}
+	.first-floor-wrap h1{
+	word-break: break-all;
+	}
+	.first-floor-wrap img{
+	max-width: 250px;
+	max-height: 200px;
+	}
+}
+@media screen and (max-width: 1250px)  {
+	.first-button a{
+		margin-top: 0;
+	}
+}
+
+/* Section Services*/
+
+.services{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1280px;
+	margin: 100px auto;
+	
+
+}
+.services-left{
+	max-width: 50%;	
+	margin-right: 90px;
+	margin-left: 10px; 
+
+}
+.services-left h2{
+	text-transform: uppercase;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 55px;
+	margin-top: 0;
+	padding-top: 0;
+}
+.services-left p{
+	max-width: 539px;
+	font-size: 16px;
+	line-height: 28px;
+
+}
+.services-button{
+	width: 227px;
+	height: 55px;
+	border-color: #FF2D2D; 
+	display: flex;
+	align-items: stretch;
+}
+.services-button a{
+	text-decoration: none;
+	color: #FF2D2D;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #FF2D2D;
+	font-size: 18px;
+	font-weight: 700;
+	width: 100%; 
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	background-color: #fff;
+	border-radius: 5px;
+
+}
+.services-right{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.services-right-list:nth-of-type(2n+1){
+	max-width: 301px;
+	
+}
+.services-right-list:nth-of-type(2n){
+	max-width: 320px;
+}
+.services-right-list{
+	margin: 5px 5px 15px 5px;
+}
+
+@media screen and (max-width: 600px) {
+
+	.services{
+		flex-wrap: wrap;
+	}
+	.services-right-list:nth-of-type(1){
+		margin-top: 70px;
+	}
+	.services-button a{
+		margin-top: 0;
+	}
+}
+
+/*Section Feature Products*/
+
+
+.feature-products{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.feature-products h2{
+	display: box;
+	text-transform: uppercase;
+	font-size: 42px;
+	font-weight: 700;
+	margin-bottom: 0;
+	
+}
+.feature-products p{
+	display: block;
+	padding: 0;
+	max-width: 536px;
+	text-align: center;
+}
+.list-products{
+	display: flex;
+	justify-content: center;
+}
+.list-of-products{
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+.list-products li{
+	display: flex;
+	justify-content: center;
+}
+.list-products a{
+	text-decoration: none;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 24px;
+	margin: 15px;
+}
+.list-products a:hover{
+	color: #FF2D2D;
+}
+.img-of-products-wrap{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1255px;
+	margin: 20px auto;	 
+}
+.example{
+	width: 301px;
+	height: 293px;
+	margin: 5px;
+}
+
+@media screen and (max-width: 650px) {
+	.feature-products h2{
+		text-align: center;
+	}
+	.list-of-products{
+		flex-wrap: wrap;
+	}
+}
+
+/*Our Team*/
+
+.team{
+	max-width: 1255px;
+	margin: 140px auto;
+}
+.team h2{
+	text-transform: uppercase;
+	font-size: 42px;
+	font-weight: 700;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.team p{
+	max-width: 478px;
+	font-size: 16px;
+	display: block;
+	margin-left: 5px;
+    margin-right: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+	padding: 0;
+	line-height: 28px;
+}
+.fotos-of-team{
+	display: flex;
+}
+.fotos-of-team img{
+	margin: 50px 40px 0 0;
+}
+.colleagues h3{
+	font-size: 30px;
+	font-weight: 600;
+	text-transform: uppercase;
+}	
+.colleagues p{
+	max-width: 662px; 
+	padding: 0;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	font-size: 16px;
+	line-height: 28px;
+}
+.colleagues ul{
+	display: flex;
+	padding-inline-start: 0;
+}	
+.colleagues li{
+	list-style: none;
+	display: flex;
+}
+.colleagues li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 400;
+	display: flex;
+	justify-content: center;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.foto-of-colleagues{
+	display: flex;
+	flex-wrap: wrap;
+}
+.avatar{
+	display: block;
+	position: relative;
+	width: 200px;
+	height: 217px;
+	margin: 55px 10px 0 0;	
+}
+.avatar img{
+	margin: 0;	
+	position: relative;
+}
+.box-name{
+	width: 200px;
+	height: 37px; 
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #fff;	
+	position: absolute;
+	bottom: 0;
+	display: none;
+}
+.avatar:hover > .box-name {
+	display: block;
+}
+@media screen and (max-width: 745px) {
+	.colleagues ul{
+		flex-wrap: wrap;
+	}
+}
+@media screen and (max-width: 600px){
+	.fotos-of-team{
+		flex-wrap: wrap;
+	}
+}
+/*.visible{
+	display: block;
+} фУНКЦИЯ ПОКА НЕ РАБОТАЕТ ТАК, КАК НАДО...
+*/
+ 
+  /*Section Subscribe*/
+
+
+.subscribe{
+ 	background-color: #000;
+ 	max-width: pv;
+ 	margin: 0 auto;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+}
+.subscribe h2{
+	font-size: 42px;
+	font-weight: 700;
+	color: #fff;
+	text-align: center;
+	margin-top: 150px;
+	margin-bottom: 0;
+}
+.subscribe p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	margin-top: 16px;
+}
+.sub-button {
+	margin: 57px auto 150px auto;
+}
+.sub-button input{
+	width: 484px;
+	height: 82px;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+	padding: 0 0 0 40px;
+}
+.sub-button button{
+	background-color: #FF2D2D;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	border-radius: 5px;
+	width: 217px;
+	height: 82px;
+	border: none;
+	margin-left: 20px;
+}
+@media screen and (max-width: 825px) {
+	.sub-button button{
+		margin-top: 20px;	
+	}
+}
+@media screen and (max-width: 550px) {
+	.sub-button input{
+		width: 350px;	
+	}
+}
+
+
+ /*Section Get in touch*/ 
+
+
+.get-in-touch{
+	margin-bottom: 200px;
+}
+.get-in-touch-top{
+	margin: 100px auto;
+	max-width: 1255px;
+}
+.get-in-touch h2{
+	font-size: 42px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+
+}
+.get-in-touch p{
+	font-size: 16px;
+	font-weight: 400;
+	max-width: 753px;
+	margin-bottom: 58px;
+}
+.get-in-touch-bottom{
+	margin-top: 73px;	
+	position: relative;
+}
+.get-in-touch-bottom-left{
+	margin: 100px auto;
+	max-width: 1255px;
+}
+.send-msg-form{
+	max-width: 753px;
+}
+.send-msg-form .name{
+	background-color: rgba(0, 0, 0, 0.1);
+	font-weight: 400;
+	font-size: 18px;
+	padding: 0 0 0 40px;
+	border-radius: 5px;
+	width: 300px;
+	height: 69px;
+	border: none;
+}
+.send-msg-form .email{
+	background-color: rgba(0, 0, 0, 0.1);
+	font-weight: 400;
+	font-size: 16px;
+	padding: 0 0 0 40px;
+	border-radius: 5px;
+	width: 300px;
+	height: 69px;
+	border: none;
+	margin-left: 45px;
+}
+.send-msg-form .message{
+	background-color: rgba(0, 0, 0, 0.1);
+	font-weight: 400;
+	font-size: 16px;
+	padding: 0 0 0 40px;
+	border-radius: 5px;
+	width: 690px;
+	height: 252px;
+	border: none;
+	margin-top: 43px;
+}
+.send-msg-form button{
+	background-color: #FF2D2D;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	border-radius: 5px;
+	width: 731px;
+	height: 75px;
+	border: none;
+	margin-top: 43px;
+}	
+.black-contact-info{
+	background-color: #000;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	min-height: 485px;
+	margin-left: 110px;
+	width: 40vw;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-top: 100px;
+}
+.black-contact-info .text{
+	width: 315px;
+}
+.black-contact-info p{
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	margin-left: 60px;
+	margin-bottom: 20px;
+}
+.black-contact-info .head{
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+@media screen and (max-width: 800px){
+	.get-in-touch-bottom-left{
+		justify-content: center;
+	}
+	.black-contact-info{
+		margin-top: 50px;
+		position: static;
+		max-width: 420px;
+	}
+}
+@media screen and (max-width: 600px){
+	.send-msg-form{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.send-msg-form button{
+		max-width: 300px;
+	}
+	.send-msg-form .message{
+		width: 300px;
+	}
+	.send-msg-form .email{
+		margin-left: 0;
+		margin-top: 40px;
+	}
+}
+
+/*FOOTER*/
+
+.footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	max-width: pv;
+	margin: 0 auto;
+	background-color: #000;
+}
+.footer p{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+
+}
+.footer img{
+	margin-left: 15px;
+}
