@@ -217,7 +217,11 @@ header{
 .services-right-list{
 	margin: 5px 5px 15px 5px;
 }
-
+.service-sect{
+	size: 5px;
+	color: #ECECEC;
+	width: 1251px;
+}
 @media screen and (max-width: 600px) {
 
 	.services{
@@ -252,6 +256,12 @@ header{
 	padding: 0;
 	max-width: 536px;
 	text-align: center;
+}
+.feature-products-sect{
+	height: 5px;
+	border: 0;
+	background-color: #FF2D2D; 
+	width: 134px; 
 }
 .list-products{
 	display: flex;
@@ -324,6 +334,13 @@ header{
 	padding: 0;
 	line-height: 28px;
 }
+.our-team-line{
+	height: 5px;
+	border: 0;
+	background-color: #FF2D2D; 
+	width: 134px; 
+	margin-left: 0;
+}
 .fotos-of-team{
 	display: flex;
 }
@@ -345,7 +362,7 @@ header{
 }
 .colleagues ul{
 	display: flex;
-	padding-inline-start: 0;
+	padding: 0;
 }	
 .colleagues li{
 	list-style: none;
@@ -413,7 +430,7 @@ header{
 
 .subscribe{
  	background-color: #000;
- 	max-width: pv;
+ 	max-width: 100%;
  	margin: 0 auto;
  	display: flex;
  	flex-direction: column;
@@ -492,6 +509,13 @@ header{
 	max-width: 753px;
 	margin-bottom: 58px;
 }
+.get-in-touch-line{
+	height: 5px;
+	border: 0;
+	background-color: #FF2D2D; 
+	width: 134px; 
+	margin-left: 0;
+}
 .get-in-touch-bottom{
 	margin-top: 73px;	
 	position: relative;
@@ -513,7 +537,7 @@ header{
 	height: 69px;
 	border: none;
 }
-.send-msg-form .email{
+.send-msg-form .mail{
 	background-color: rgba(0, 0, 0, 0.1);
 	font-weight: 400;
 	font-size: 16px;
@@ -584,7 +608,7 @@ header{
 		position: static;
 		max-width: 420px;
 	}
-}
+}	
 @media screen and (max-width: 600px){
 	.send-msg-form{
 		display: flex;
@@ -596,7 +620,7 @@ header{
 	.send-msg-form .message{
 		width: 300px;
 	}
-	.send-msg-form .email{
+	.send-msg-form .mail{
 		margin-left: 0;
 		margin-top: 40px;
 	}
@@ -608,7 +632,7 @@ header{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	max-width: pv;
+	max-width: 100%;
 	margin: 0 auto;
 	background-color: #000;
 }
